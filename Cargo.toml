@@ -1,7 +1,12 @@
 [package]
+authors = ["Stefan Dietiker <stefan.dietiker@gmail.com>"]
 name = "journald-export-parser-rs"
+description = "Journald Journal Export Format Parser"
+repository = "https://github.com/d-s-d/journald-export-parser-rs"
 version = "0.1.0"
 edition = "2021"
+keywords = ["systemd", "journald"]
+license-file = "LICENSE"
 
 [dependencies]
 futures = "0.3.30"
